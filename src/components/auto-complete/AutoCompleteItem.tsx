@@ -18,6 +18,7 @@ const AutoCompleteItem: FunctionComponent<AutoCompleteItemProps> = ({
     <li
       className={`list-group-item ${isHighlighted ? "active highlighted" : ""}`}
       onClick={onSelectItem}
+      role="option"
     >
       <div className="list-group-item-container">
         <small className="mb-0 badge badge-primary">

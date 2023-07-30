@@ -1,11 +1,30 @@
-# React + TypeScript + Vite
+# Auto Complete Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was built as a test from Deel.
 
-Currently, two official plugins are available:
+It's using [JSON Placeholder](https://github.com/https://jsonplaceholder.typicode.com/) as a free fake API for prototyping. It's simple fetching a list of todos from [https://jsonplaceholder.typicode.com/todos](https://github.com/https://jsonplaceholder.typicode.com/todos)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## React + TypeScript + Vite
+
+This project was build with a template that provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+## How to run the project
+
+```bash
+yarn install
+```
+
+To install dependencies and then run:
+
+```bash
+yarn dev
+```
+
+Runs the app in the development mode.\
+Open [http://localhost:5173/](http://localhost:5173/) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
 ## Expanding the ESLint configuration
 
