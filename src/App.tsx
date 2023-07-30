@@ -21,6 +21,14 @@ function App() {
       <h1>Auto-Complete</h1>
       <AutoComplete onSelect={(todo: ITodo) => setTodo(todo.title)} />
       {todo && <p>The selected todo: {todo}</p>}
+      <footer>
+        <p>
+          Built by{" "}
+          <a href="https://luirojasportfolio.netlify.app/" target="_blank">
+            Luis Rojas
+          </a>
+        </p>
+      </footer>
     </>
   );
 }
